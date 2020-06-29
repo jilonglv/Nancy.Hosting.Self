@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <!-- <Description>Enables hosting Nancy in any application.</Description> -->
+    <!-- <PackageTags>$(PackageTags);Host</PackageTags> -->
+    <!-- <TargetFrameworks>netcoreapp2.0;netcoreapp2.1;netcoreapp2.2;netcoreapp3.0</TargetFrameworks> -->
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <PackageId>Nancy.Hosting.Self.Core</PackageId>
+    <Version>1.0.1</Version>
+    <AssemblyName>Nancy.Hosting.Self.Core</AssemblyName>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Nancy" Version="2.0.0" />
+    <PackageReference Include="System.Security.Principal.Windows" Version="4.3.0" />
+  </ItemGroup>
+</Project>
